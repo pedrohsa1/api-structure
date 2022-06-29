@@ -67,11 +67,6 @@ Corpo da requisição
 `GET /api/v1/person/uf/{uf}`
 
 
-- Obter Pessoa(s) pela UF
-
-`GET /api/v1/person/uf/{uf}`
-
-
 - Obter todas as Pessoas
 
 `GET /api/v1/person/get-all`
