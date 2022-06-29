@@ -1,5 +1,5 @@
 ## Projeto API
-O projeto EF.API é uma estrutura base implementado os principais padrões de projetos que auxilia no desenvolvimento de APIs. Nesta estrutura estamos utilizando.
+O projeto EF.API é uma estrutura base que implementa os principais padrões de projetos e auxilia no desenvolvimento de APIs.
 
 ## Endpoints
 
