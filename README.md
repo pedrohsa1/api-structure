@@ -7,10 +7,10 @@ Neste projeto base utilizamos o banco de dados In-Memory
 
 ## Acesso
 Antes de acessar os demais serviços devemos utilizar o endpoint de autenticação, nós utilizamos o JWT para gerar o Token, se usuário e senha forem válidos, basta inserir o "Bearer <TOKEN>" no Authorize da requisição.
-
+```sh
 Usuário: admin
 Senha: admin
-
+```
 ## Endpoints
 
 - Autenticação
