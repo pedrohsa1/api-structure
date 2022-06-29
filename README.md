@@ -3,6 +3,14 @@
 ## Projeto API
 O projeto EF.API é uma estrutura base que implementa os principais padrões de projetos e auxilia no desenvolvimento de APIs.
 
+Neste projeto base utilizamos o banco de dados In-Memory
+
+## Acesso
+Antes de acessar os demais serviços devemos utilizar o endpoint de autenticação, nós utilizamos o JWT e para autenticar, devemos inserir o "Bearer <TOKEN>" no Authorize da requisição.
+
+Usuário: admin
+Senha: admin
+
 ## Endpoints
 
 - Autenticação
