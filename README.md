@@ -1,12 +1,12 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white) ![Jwt](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white) 
 
 ## Projeto API - Desafio GlobalTec
-O projeto EF.API é uma estrutura base que implementa os principais padrões de projetos e auxilia no desenvolvimento de APIs.
+O projeto EF.API é uma estrutura base que implementa os principais padrões de projetos.
 
 Neste projeto base utilizamos o banco de dados In-Memory
 
 ## Acesso
-Antes de acessar os demais serviços devemos utilizar o endpoint de autenticação, utilizamos o JWT para gerar o Token, se usuário e senha forem válidos, basta inserir o "Bearer Token" no Authorize da requisição.
+Antes de consumir os demais serviços devemos utilizar o endpoint de autenticação, utilizamos o JWT para gerar o Token, se usuário e senha forem válidos, basta inserir o "Bearer Token" no Authorize da requisição.
 ```sh
 Usuário: admin
 Senha: admin
