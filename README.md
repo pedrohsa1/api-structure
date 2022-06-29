@@ -6,7 +6,7 @@ O projeto EF.API é uma estrutura base que implementa os principais padrões de 
 Neste projeto base utilizamos o banco de dados In-Memory
 
 ## Acesso
-Antes de acessar os demais serviços devemos utilizar o endpoint de autenticação, nós utilizamos o JWT e para autenticar, devemos inserir o "Bearer <TOKEN>" no Authorize da requisição.
+Antes de acessar os demais serviços devemos utilizar o endpoint de autenticação, nós utilizamos o JWT para gerar o Token, se usuário e senha forem válidos, basta inserir o "Bearer <TOKEN>" no Authorize da requisição.
 
 Usuário: admin
 Senha: admin
